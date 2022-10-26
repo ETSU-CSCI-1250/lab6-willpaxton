@@ -1,13 +1,19 @@
-﻿public class Program
+﻿// Will Paxton
+public class Program
 {
     static void Main()
     {
+        // ShowCharacter
         Console.WriteLine(ShowCharacter("New York", 2));
+
+        // CalculateRetail
         Console.WriteLine($"\n{CalculateRetail(5.00, 50)}\n");
 
+        // Celsius
         for (double i = 80; i <= 100; i++)
             Console.WriteLine(Celsius(i));
 
+        // IsPrime
         Console.WriteLine($"\n{IsPrime(4)}");
     }
 
